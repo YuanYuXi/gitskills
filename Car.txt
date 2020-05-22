@@ -1,0 +1,35 @@
+public class Car {
+    //描述汽车（品牌，颜色，轮胎数等）
+    private String color="白色";//描述颜色
+    private String brand="奔驰";//描述品牌
+    private int num=4;//描述轮胎数
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getNum() {
+        return num;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
+    }
+
+    public void Thecar(){
+        System.out.println("这是一辆"+color+"的"+num+"轮"+brand);
+    }
+
+}

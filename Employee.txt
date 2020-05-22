@@ -1,0 +1,18 @@
+ class Employee
+ {
+    private String name;//定义私有变量
+    private String id;
+    private double pay;
+    Employee(String name,String id,double pay)//赋值
+    {
+        this.name=name;
+        this.id=id;
+        this.pay=pay;
+    }
+
+     public void work()//特殊功能
+     {
+        System.out.println("上班");
+     }
+
+ }

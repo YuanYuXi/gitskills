@@ -1,0 +1,9 @@
+ class Manager extends Employee //继承Employee
+ {
+     private int bonus;
+     Manager(String name, String id, double pay,int bonus)//调用Employee函数且添加了bonus项
+     {
+         super(name, id, pay);
+         this.bonus=bonus;
+     }
+ }

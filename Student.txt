@@ -1,0 +1,11 @@
+public class Student {
+    //描述学生（年龄，性别，身高，体重，成绩等）
+    String name="李华";//描述姓名
+    String stu="男生";//描述性别
+    double high=1.75;//描述身高
+    double weight=126;//描述体重
+    double study=88;//描述成绩
+    public void Information(){
+        System.out.println(name+"是一个"+"身高"+high+"体重"+weight+"的"+stu);
+    }
+}
